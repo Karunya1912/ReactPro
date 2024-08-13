@@ -1,0 +1,46 @@
+/* BookList.css */
+.book-list {
+  flex: 1;
+  padding: 20px;
+  background-color: #f3f3f5; /* Light background color added */
+  display: flex;
+  justify-content: center; /* Center the table */
+  align-items: center; /* Center the table vertically */
+}
+
+.table-container {
+  background-color: #fff8dc; /* Pale yellow background */
+  padding: 20px;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 15px; /* Increased padding for larger row size */
+  border-bottom: 1px solid #ddd;
+  text-align: left; /* Align text to the left */
+}
+
+th {
+  background-color: #e8e8e8; /* Light grey background for headers */
+  font-weight: bold; /* Bold text for headers */
+}
+
+.even-row {
+  background-color: #f9f9f9; /* Light grey background for even rows */
+}
+
+.odd-row {
+  background-color: #ffffff; /* White background for odd rows */
+}
+
+td {
+  white-space: nowrap; /* Prevent text from wrapping */
+  overflow: hidden; /* Hide overflow text */
+  text-overflow: ellipsis; /* Add ellipsis for overflow text */
+}
